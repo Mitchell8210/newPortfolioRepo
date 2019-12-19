@@ -14,7 +14,7 @@ function Projects() {
               href="https://github.com/lalonso317/RecipeBookMaster"
               target="blank"
             >
-              <img height="100%" src={OrderUp} alt="project" />
+              <img height="100%" width="100%" src={OrderUp} alt="project" />
             </a>
           </div>
           <div className="projectDescriptions">
@@ -44,7 +44,7 @@ function Projects() {
         <div className="single-Project">
           <div className="projectThumbnail">
             <a href="https://finediningsite.surge.sh/" target="blank">
-              <img height="100%" src={FineDining} alt="project" />
+              <img height="100%" width="100%" src={FineDining} alt="project" />
             </a>
           </div>
           <div className="projectDescriptions">
@@ -72,7 +72,7 @@ function Projects() {
         <div className="single-Project">
           <div className="projectThumbnail">
             <a href="https://matrix-flip-card.surge.sh/" target="blank">
-              <img height="100%" src={Matrix} alt="project" />
+              <img height="100%" width="100%" src={Matrix} alt="project" />
             </a>
           </div>
 
@@ -101,7 +101,7 @@ function Projects() {
         <div className="single-Project">
           <div className="projectThumbnail">
             <a href="https://sk8er-site.surge.sh" target="blank">
-              <img height="100%" src={Skater} alt="project" />
+              <img height="100%" width="100%" src={Skater} alt="project" />
             </a>
           </div>
           <div className="projectDescriptions">
