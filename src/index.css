@@ -111,22 +111,18 @@ code {
 
 .single-Project {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 10%;
   padding: 20px;
   background: rgba(36, 36, 36, 0.769);
-  height: 100%;
   border-top: 5px solid rgb(25, 99, 164);
 }
 
 .projectThumbnail {
   margin: 10px;
-
   width: 50%;
-  height: 300px;
 }
 
 .projectThumbnail img {
-  height: 300px;
   transition: box-shadow 0.5s;
 }
 
@@ -137,6 +133,7 @@ code {
 .projectDescriptions {
   font-size: 20px;
   display: flex;
+  width: 50%;
 }
 
 .projectDescriptions div {
@@ -203,7 +200,6 @@ code {
 }
 
 #contact img {
-  width: 250px;
   border-radius: 50%;
 }
 
@@ -268,4 +264,144 @@ code {
   display: flex;
   justify-content: flex-end;
   margin-top: 0;
+}
+
+/* IPAD VIEW */
+@media (max-width:1024px) {
+  .contact-form {
+    width: 100%;
+  }
+}
+
+@media (max-width:415px) {
+  .mainContainer {
+    width: 100%;
+  }
+
+  .navigation {
+    display: block;
+    background: rgba(36, 36, 36, 0.769);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 50%;
+    height: 175px;
+    align-content: center;
+    border-bottom: 7px solid rgb(25, 99, 164);
+    border-right: 7px solid rgb(25, 99, 164);
+  }
+
+  .title {
+    padding-top: 47%;
+    text-align: left;
+    font-size: 80px;
+  }
+
+  .social-buttons {
+    justify-content: flex-start;
+  }
+
+  .single-Project {
+    display: block;
+  }
+
+  .projectThumbnail {
+    width: 100%;
+    margin: 0;
+  }
+
+  .languages {
+    display: block;
+  }
+
+  .image-container {
+    display: block;
+  }
+
+  .image-container p {
+    margin: 0;
+  }
+
+  .contactMe,
+  .location,
+  .email {
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+  }
+
+  #contact {
+    padding-top: 50%;
+  }
+}
+
+/* IPHONE 5/SE */
+@media (max-width:415px) {
+  .mainContainer {
+    width: 100%;
+  }
+
+  .navigation {
+    display: block;
+    background: rgba(36, 36, 36, 0.769);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 50%;
+    height: 175px;
+    align-content: center;
+    border-bottom: 7px solid rgb(25, 99, 164);
+    border-right: 7px solid rgb(25, 99, 164);
+  }
+
+  .title {
+    padding-top: 50%;
+    text-align: left;
+    font-size: 80px;
+  }
+
+  .social-buttons {
+    justify-content: flex-start;
+  }
+
+  .single-Project {
+    display: block;
+  }
+
+  .projectThumbnail {
+    width: 100%;
+    margin: 0;
+  }
+
+  .languages {
+    display: block;
+  }
+
+  .image-container {
+    display: block;
+    margin: 0;
+    padding-left: 3%;
+  }
+
+  .image-container p {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .contactMe,
+  .location,
+  .email {
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+  }
+
+  #contact {
+    padding-top: 50%;
+    height: 100%;
+  }
+
+  #languages {
+    height: 100%;
+  }
 }
