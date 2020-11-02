@@ -6,7 +6,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   scroll-behavior: smooth;
-  background-image: url("https://images.pexels.com/photos/1647975/pexels-photo-1647975.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background: black;
 }
 
 *,
@@ -71,6 +71,7 @@ code {
   font-size: 100px;
   padding-top: 100px;
   padding-bottom: 100px;
+  color: white;
 }
 
 .title p {
@@ -216,7 +217,8 @@ code {
   margin-left: 100px;
 }
 
-.contactMeContainer {}
+.contactMeContainer {
+}
 
 .contact-form {
   background: rgba(36, 36, 36, 0.769);
@@ -267,13 +269,13 @@ code {
 }
 
 /* IPAD VIEW */
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   .contact-form {
     width: 100%;
   }
 }
 
-@media (max-width:415px) {
+@media (max-width: 415px) {
   .mainContainer {
     width: 100%;
   }
@@ -316,7 +318,7 @@ code {
   }
 
   .image-container {
-    display: block;
+    display: flex;
   }
 
   .image-container p {
@@ -337,7 +339,7 @@ code {
 }
 
 /* IPHONE 5/SE */
-@media (max-width:415px) {
+@media (max-width: 415px) {
   .mainContainer {
     width: 100%;
   }
@@ -399,7 +401,6 @@ code {
   }
 
   #contact {
-
     height: 100vh;
   }
 
