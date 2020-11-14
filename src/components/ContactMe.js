@@ -1,16 +1,11 @@
-import React from "react"
-import ProfilePic from "../assets/myprofile.jpeg"
+import React from "react";
+import ProfilePic from "../assets/myprofile.jpeg";
 function ContactMe() {
   return (
     <div className="contactMeContainer" id="contact">
       <div className="image-container">
         <img src={ProfilePic} />
-        <p>
-          I love just about anything to do with coding and spend a lot of my
-          freetime researching new technologies and theories around development.
-          Some of my hobbies include: traveling the world, Snowboarding, and
-          spending time with friends and family.
-        </p>
+        {/* <p></p> */}
       </div>
       <div className="contact-form">
         <div className="contactMe">Feel free to contact me</div>
@@ -22,7 +17,7 @@ function ContactMe() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default ContactMe
+export default ContactMe;

@@ -1,8 +1,9 @@
-import React from "react"
-import Skater from "../assets/sk8ersite.png"
-import FineDining from "../assets/fineDiningsite.png"
-import OrderUp from "../assets/OrderUp.png"
-import Matrix from "../assets/matrix.png"
+import React from "react";
+import Skater from "../assets/sk8ersite.png";
+import FineDining from "../assets/fineDiningsite.png";
+import OrderUp from "../assets/OrderUp.png";
+import ReactSwr from "../assets/reactswrpage.png";
+import Matrix from "../assets/matrix.png";
 function Projects() {
   return (
     <div className="projectContainer" id="projects">
@@ -37,6 +38,36 @@ function Projects() {
                 and share family recipes with friends and strangers alike. Have
                 the option to keep them in a private user setting or share them
                 with all who visit the site.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="single-Project">
+          <div className="projectThumbnail">
+            <a href="https://reactswr.herokuapp.com/" target="blank">
+              <img height="100%" width="100%" src={ReactSwr} alt="project" />
+            </a>
+          </div>
+          <div className="projectDescriptions">
+            <div>
+              <div className="project-titles">
+                <h1>React with SWR</h1>
+                <div className="information">
+                  <a
+                    href="https://github.com/Mitchell8210/reactWithSWR"
+                    target="_blank"
+                    className="icons"
+                  >
+                    <i className="fa fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <h3>Drink Recipe Finder</h3>
+              <p>
+                This is a simple Single Page Application built using React and
+                SWR for data fetching. It utilizes an open source API to let you
+                search for and display just about any drink (mainly alcoholic
+                drinks) and information on how to make those drinks yourself.
               </p>
             </div>
           </div>
@@ -128,7 +159,7 @@ function Projects() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

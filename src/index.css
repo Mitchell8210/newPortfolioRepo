@@ -206,8 +206,8 @@ code {
 
 .image-container {
   text-align: left;
-  margin-left: 10%;
-  padding-top: 10%;
+  width: fit-content;
+  margin: auto;
   display: flex;
 }
 
@@ -318,11 +318,11 @@ code {
   }
 
   .image-container {
-    display: flex;
+    text-align: center;
   }
 
   .image-container p {
-    margin: 0;
+    margin: auto;
   }
 
   .contactMe,
@@ -383,12 +383,9 @@ code {
 
   .image-container {
     display: block;
-    margin: 0;
-    padding-left: 3%;
   }
 
   .image-container p {
-    margin: 0;
     font-size: 20px;
   }
 
