@@ -3,6 +3,7 @@ import Skater from "../assets/sk8ersite.png";
 import FineDining from "../assets/fineDiningsite.png";
 import OrderUp from "../assets/OrderUp.png";
 import ReactSwr from "../assets/reactswrpage.png";
+import GrowIt from "../assets/growItComingSoon.png";
 import Matrix from "../assets/matrix.png";
 function Projects() {
   return (
@@ -68,6 +69,35 @@ function Projects() {
                 SWR for data fetching. It utilizes an open source API to let you
                 search for and display just about any drink (mainly alcoholic
                 drinks) and information on how to make those drinks yourself.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="single-Project">
+          <div className="projectThumbnail">
+            <a href="https://remote-heroku-api.herokuapp.com/" target="blank">
+              <img height="100%" width="100%" src={GrowIt} alt="project" />
+            </a>
+          </div>
+          <div className="projectDescriptions">
+            <div>
+              <div className="project-titles">
+                <h1>Grow It</h1>
+                <div className="information">
+                  <a
+                    href="https://github.com/Mitchell8210"
+                    target="_blank"
+                    className="icons"
+                  >
+                    <i className="fa fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <h3>Cannabis Grow Tracker</h3>
+              <p>
+                This is a React Native application built to help users Create,
+                Track and Share their Grow Operations in one secure location
+                with realtime updates.
               </p>
             </div>
           </div>
